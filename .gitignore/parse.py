@@ -8,14 +8,14 @@ json_normalize(data, ['apps', 'events'], ['deviceId', 'vinPart', ['apps', 'app']
 
 data =  [ 
 {  
-   "deviceId":"55b5980c-5abb-c9c1-3c6f-770dee21a43f",
-   "vinPart":"AERDKW3J",
+   "deviceId":"123-123-123-123-123asdf",
+   "vinPart":"abcdef",
    "apps":[  
       {  
-         "app":"WSJ",
-         "appID":"96467275",
-         "appV":"1.0.13",
-         "framework":"dff-1.0.28",
+         "app":"xyz",
+         "appID":"12345678",
+         "appV":"1.1.1",
+         "framework":"abc-1.1.1",
          "events":[  
             {  
                "e":"appStart",
@@ -34,10 +34,10 @@ data =  [
          ]
       },
       {  
-         "app":"NY Times",
-         "appID":"981312799",
-         "appV":"1.0.11",
-         "framework":"dff-1.0.28",
+         "app":"def",
+         "appID":"345678",
+         "appV":"1.1.11",
+         "framework":"def-1.1.123",
          "events":[  
             {  
                "e":"appStart",
